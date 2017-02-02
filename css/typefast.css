@@ -1,0 +1,75 @@
+#cloud{
+			background-image:url(../sources/cloud.png);
+			width: 200px;
+			height: 200px;
+			background-size:200px 200px;
+			text-align:center;
+			display: inline-block;
+			font-size: 20px;
+			padding-top: 50px;
+			box-sizing: border-box;
+			position: relative;
+			left: -20%;
+
+		}
+		#input{
+			width: 30%;
+			font-size: 180%;
+			height: 40px;
+			display: inline-block;
+			margin:50px 0 0 35%;
+			display: none;
+		}
+		
+		body{
+			background-image: url(../sources/type.jpeg);
+			background-size: cover;
+			overflow: hidden;
+		}
+		.instruction{
+			font-size: 50px;
+			text-align: center;
+			position: absolute;
+			top:30%;
+			width: 100%;
+			margin: 0;
+			color: white;
+
+		}
+		#countdown{
+			font-size: 100px;
+			display: none;
+		}
+		#timer,#score{
+			position: absolute;
+			bottom:0;
+			right: 0;
+			font-size: 3em;
+			margin: 0px;
+			color: #5a2323;
+			color: white;
+		}
+		#score{
+			left:0;
+			
+		}
+		.gameover{
+			display: none;
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			width: 40%;
+			height: 200px;
+			background-color:#5a2323;
+			opacity: .8;
+		    text-align: center;
+		    color: white;
+		}
+		#restart{
+        	border-collapse: collapse;
+        	border-radius: 5px;
+        	background-color: black;
+        	color: white;
+        	width: 60px;
+        	height: 40px;
+        }
