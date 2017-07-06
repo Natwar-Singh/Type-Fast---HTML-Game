@@ -1,9 +1,10 @@
 var word,pre;
-var requestStr = "http://randomword.setgetgo.com/get.php";
+var requestStr = "http://www.setgetgo.com/randomword/get.php";
 var count=0;
 function RandomWordComplete(json){
   pre=word;
   word=json.Word;
+  console.log(json.Word);
   $("#cloud").html(word);
 	   
 }
